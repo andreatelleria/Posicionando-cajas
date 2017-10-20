@@ -1,15 +1,48 @@
+/*Utilizamos el selector universal y establecemos el valor de box-sizing a border-box para que el tamaño de todas las cajas sea parejo según su width*/
 * {
   box-sizing: border-box;
 }
-
-.caja1 {
-  width: 300px;
-  height: 300px;
+/*Utilizamos el selector de clase .red para establecer su ancho, largo y color de fondo*/
+.red {
+  width: 320px;
+  height: 320px;
   background-color: red;
 }
-
-.caja2 {
-  width: 300px;
-  height: 300px;
+/*Utilizamos el selector de clase .purple para establecer su ancho, largo y color de fondo. Adicionalmente, le damos una posición relative para poder desplazar el elemento hacia el centro*/
+.purple {
+  width: 160px;
+  height: 160px;
+  background-color: purple;
+  position: relative;
+  top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*Utilizamos el selector de clase .yellow para establecer su ancho, largo y color de fondo*/
+.yellow {
+  width: 80px;
+  height: 80px;
+  background-color: yellow;
+}
+/*Utilizamos el selector de clase .blue para establecer su ancho, largo y color de fondo. También, le damos un margen superior de 12px para que esté separado de la primera caja*/
+.blue {
+  width: 320px;
+  height: 320px;
   background-color: blue;
+  margin-top: 12px;
+}
+/*Utilizamos el selector de clase .green para establecer su ancho, largo y color de fondo. Adicionalmente, le damos una posición relative para poder desplazar el elemento hacia el centro*/
+.green {
+  width: 160px;
+  height: 160px;
+  background-color: green;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*Utilizamos el selector de clase .black para establecer su ancho, largo y color de fondo*/
+.black {
+  width: 80px;
+  height: 80px;
+  background-color: black;
 }
